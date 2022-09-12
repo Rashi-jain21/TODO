@@ -10,6 +10,7 @@ Steps to Run the application
 4. Go to ios folder by running the command "cd ios"
 5. Run "pod install"
 6. Go to xcode and start building the project.
+7. A terminal will open by default otherwise go to terminal and run the command "npx react-native start" to start the bundler.
 
 Note: Expecting the basic setup of system is already handled.
 Pre-requisites
