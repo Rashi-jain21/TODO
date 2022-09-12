@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with snapshot with no data 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 0.5,
+      "justifyContent": "space-between",
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "#4290f5",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "center",
+        "margin": 10,
+        "padding": 10,
+        "width": "90%",
+      }
+    }
+  >
+    <TextInput
+      keyboardType="default"
+      maxLength={50}
+      onChangeText={[Function]}
+      placeholder="enter text"
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4290f5",
+        "borderRadius": 10,
+        "height": 40,
+        "justifyContent": "center",
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          Done
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
