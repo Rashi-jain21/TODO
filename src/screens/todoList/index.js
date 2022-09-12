@@ -13,7 +13,7 @@ export default function TODOList(props) {
     return <ListComponent item={item} />;
   };
   return (
-    <View style={{flex: 1, justifyContent: 'space-evenly', paddingTop: 70}}>
+    <View style={styles.container}>
       <View style={styles.divider} />
       {todoList.length ? (
         <FlatList
@@ -58,7 +58,7 @@ const ListComponent = props => {
             e.stopPropagation();
             onChangeStatus('incomplete');
           }}>
-          <Icon name="checkcircle" size={20} color="green" />
+          <Icon name="checkcircle" size={20} color="#2d8a28" />
         </Pressable>
       ) : (
         <Pressable
@@ -66,7 +66,7 @@ const ListComponent = props => {
             e.stopPropagation();
             onChangeStatus('complete');
           }}>
-          <Icon name="checkcircleo" size={20} color="red" />
+          <Icon name="checkcircleo" size={20} color="#8c8eab" />
         </Pressable>
       )}
       <Text style={styles.todoText}>{item?.name}</Text>
@@ -77,6 +77,7 @@ const ListComponent = props => {
   );
 };
 const styles = StyleSheet.create({
+  container: {flex: 1, justifyContent: 'space-evenly', paddingTop: 70},
   divider: {
     height: 1,
     backgroundColor: '#8c8eab',
